@@ -33,7 +33,7 @@ Evaluating digital assets presents unique challenges:
 ## Technology Stack
 The front-end is built using modern technologies to ensure responsiveness and scalability:
 - **Framework**: React.js
-- **State Management**: Context
+- **State Management**: Context API
 - **CSS Framework**: Bootstrap
 - **API Communication**: REST API to Laravel backend
 - **Deployment**: Hostinger
@@ -79,8 +79,8 @@ Ensure you have Node.js and npm installed. Install them from Node.js.
 ### Installation
 Clone the repository:
 
-git clone https://github.com/username/FlipShop_Frontend.git
-cd FlipShop_Frontend
+git clone https://github.com/areejrazzaq/flipshop.git
+cd Frontend
 
 ### Install the dependencies:
 
