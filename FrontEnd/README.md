@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Flip Shop Front-End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The front-end of **Flip Shop** is designed to facilitate a user-friendly experience for buying and selling digital assets, tailored to meet the specific needs of the Pakistani market. This component provides the interface for users to browse assets, view analytics, and manage transactions in a seamless, interactive environment.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Challenges](#challenges)
+3. [Technology Stack](#technology-stack)
+4. [System Requirements](#system-requirements)
+5. [Features](#features)
+6. [Getting Started](#getting-started)
+7. [User Interfaces](#user-interfaces)
+8. [Future Work](#future-work)
+9. [References](#references)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
+Flip Shop is designed as a trusted digital marketplace, inspired by platforms like Flippa but with a focus on the local Pakistani marketplace. This front-end allows users to interact with a dynamic platform, purchase assets, and view analytics that support informed buying and selling decisions. This application uses a **Model-View-Controller (MVC)** architecture to ensure scalability, modularity, and a clean separation of responsibilities.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Challenges
+### Challenges in E-Business Evaluation
+Evaluating digital assets presents unique challenges:
+- Inconsistent valuation techniques.
+- Limited automation in listing and evaluation.
+- Variability in data and analytics availability for non-revenue-generating assets.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technology Stack
+The front-end is built using modern technologies to ensure responsiveness and scalability:
+- **Framework**: React.js
+- **State Management**: Context
+- **CSS Framework**: Bootstrap
+- **API Communication**: REST API to Laravel backend
+- **Deployment**: Hostinger
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The front-end connects to a Laravel-based backend and uses REST APIs to handle interactions with the server and database. **MySQL** is used for data storage, ensuring data is structured and accessible.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## System Requirements
+- **Node.js**: 14.x or higher
+- **npm**: 6.x or higher
+- Compatible with modern web browsers (Chrome, Firefox, Edge)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
+### Functionalities of Flip Shop Front-End
+1. **User Registration and Authentication**:
+   - Supports buyer and seller registrations.
+   - Login options include password-based and Google OAuth.
+   
+2. **Asset Listing and Price Prediction**:
+   - Sellers can list assets, and machine learning models predict prices based on analytics.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Dynamic Search and Filters**:
+   - Users can search and filter assets by parameters such as price, asset type, and industry.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Buyer-Seller Interactions**:
+   - Buyers can show interest in assets, make offers, and place bids on listed assets.
+   - A messaging system facilitates buyer-seller communication for smooth transactions.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. **Contract and Transaction Management**:
+   - Contracts are generated for each transaction, detailing terms and conditions.
+   - The system manages payment processing, credential transfers, and transaction finalization.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
+Ensure you have Node.js and npm installed. Install them from Node.js.
 
-### Code Splitting
+### Installation
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+git clone https://github.com/username/FlipShop_Frontend.git
+cd FlipShop_Frontend
 
-### Analyzing the Bundle Size
+### Install the dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm install
 
-### Making a Progressive Web App
+### Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm start
+This will start the application on localhost:3000.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## User Interfaces
+The user interface is designed with a focus on simplicity and usability, inspired by Google's design principles. Key interfaces include:
+1. **Home Page**: Displays trending assets and key statistics.
+2. **Asset Listings**: Provides detailed information on each digital asset with search and filter options.
+3. **Dashboard**: For sellers to manage their listings and buyers to track interests and bids.
+4. **Profile Page**: Shows user details, transaction history, and saved assets.
+5. **Contract and Transaction Management**: Simplifies contract generation, payment, and credential transfers.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Work
+1. **Expand Asset Types**:: Add support for additional asset types, such as e-commerce websites and social media accounts.
+2. **Enhance Machine Learning Capabilities**:: Integrate advanced models for price prediction and recommendation systems.
+3. **Automate Verification Processes**:: Add further automation for user and asset verification, enhancing security.
