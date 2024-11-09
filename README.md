@@ -69,23 +69,23 @@ FlipShop/
 
 ### Installation Steps
 1. Clone the Repository
-   git clone https://github.com/username/FlipShop.git
-   cd FlipShop
+   ```git clone https://github.com/username/FlipShop.git```
+   ```cd FlipShop```
 2. Front-End Setup
    **Navigate to the frontend directory and install dependencies**:
-      cd frontend
-      npm install
+      ```cd frontend```
+      ```npm install```
    **Start the development server**:
-      npm start
+      ```npm start```
 3. Back-End Setup
    **Navigate to the backend directory, install dependencies, and set up environment variables**:
-      cd ../backend
-      composer install
-      cp .env.example .env
-      php artisan key:generate
+      ```cd ../backend```
+      ```composer install```
+      ```cp .env.example .env```
+      ```php artisan key:generate```
    **Set up the database in .env, then run migrations**:
-      php artisan migrate
-      php artisan serve
+      ```php artisan migrate```
+      ```php artisan serve```
 
 
 ## Usage
