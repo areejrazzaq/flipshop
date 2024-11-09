@@ -13,7 +13,6 @@ The front-end of **Flip Shop** is designed to facilitate a user-friendly experie
 6. [Getting Started](#getting-started)
 7. [User Interfaces](#user-interfaces)
 8. [Future Work](#future-work)
-9. [References](#references)
 
 ---
 
