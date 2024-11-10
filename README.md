@@ -52,10 +52,24 @@ Flip Shop is built using a **three-tier architecture** with distinct separation:
 ## Project Structure
 ```plaintext
 FlipShop/
-├── Frontend/                # React application for the front-end
-├── Backend/                 # Laravel application for the back-end
-├── ML Model/                # Machine learning model code
-└── README.md                # Main project documentation
+├── docs/                        # Documentation for the project
+│   ├── SDD.pdf                  # Software Design Document
+│   ├── SRS.pdf                  # Software Requirements Specification
+│   ├── Final Report.pdf         # Final project report
+│   └── Use Cases.pdf            # Use cases that can serve as test cases
+│
+├── assets/                      # Assets related to the project
+│   ├── ERD.pdf                  # Database schema diagram
+│   ├── ProcessFlow-Buyer.pdf    # Document outlining buyer user experience
+│   └── ProcessFlow-Seller.pdf   # Document outlining seller user experience
+│
+├── src/                         # Source code for different components
+│   ├── Frontend/                # React application for the front-end
+│   ├── Backend/                 # Laravel application for the back-end
+│   └── ML Model/                # Machine learning model code
+│
+└── README.md                    # Main project overview and documentation
+
 ```
 ---
 
